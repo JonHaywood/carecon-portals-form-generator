@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/carecon-portals-form-generator/static/css/main.5a2cc352.chunk.css",
+    "main.js": "/carecon-portals-form-generator/static/js/main.786560f6.chunk.js",
+    "main.js.map": "/carecon-portals-form-generator/static/js/main.786560f6.chunk.js.map",
+    "runtime-main.js": "/carecon-portals-form-generator/static/js/runtime-main.d532b7bf.js",
+    "runtime-main.js.map": "/carecon-portals-form-generator/static/js/runtime-main.d532b7bf.js.map",
+    "static/css/2.a765cd70.chunk.css": "/carecon-portals-form-generator/static/css/2.a765cd70.chunk.css",
+    "static/js/2.86e1d13f.chunk.js": "/carecon-portals-form-generator/static/js/2.86e1d13f.chunk.js",
+    "static/js/2.86e1d13f.chunk.js.map": "/carecon-portals-form-generator/static/js/2.86e1d13f.chunk.js.map",
+    "static/js/3.3214216d.chunk.js": "/carecon-portals-form-generator/static/js/3.3214216d.chunk.js",
+    "static/js/3.3214216d.chunk.js.map": "/carecon-portals-form-generator/static/js/3.3214216d.chunk.js.map",
+    "index.html": "/carecon-portals-form-generator/index.html",
+    "static/css/2.a765cd70.chunk.css.map": "/carecon-portals-form-generator/static/css/2.a765cd70.chunk.css.map",
+    "static/css/main.5a2cc352.chunk.css.map": "/carecon-portals-form-generator/static/css/main.5a2cc352.chunk.css.map",
+    "static/js/2.86e1d13f.chunk.js.LICENSE.txt": "/carecon-portals-form-generator/static/js/2.86e1d13f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d532b7bf.js",
+    "static/css/2.a765cd70.chunk.css",
+    "static/js/2.86e1d13f.chunk.js",
+    "static/css/main.5a2cc352.chunk.css",
+    "static/js/main.786560f6.chunk.js"
+  ]
+}
