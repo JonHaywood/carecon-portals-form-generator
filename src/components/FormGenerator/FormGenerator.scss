@@ -1,0 +1,43 @@
+.form-generator {
+    height: 100%;
+    background-color: #555;
+
+    &>.row {
+        height: 100%;
+    }
+
+    &__sidebar, &__code {
+        padding: 6px;
+        height: 100vh;
+    }
+
+    &__sidebar {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    &__definitions {
+        flex: 1 1 0%;
+        overflow-y: auto;
+    }
+
+    &__add-field {
+        width: 100%;
+        margin-bottom: 6px;
+    }
+
+    h1 {
+        color: #eee;
+        font-weight: bold;
+        font-size: 30px;
+
+        .anticon {
+            vertical-align: 0;
+        }
+    }
+
+    .field-definition {
+        margin-bottom: 6px;
+    }
+}

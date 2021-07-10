@@ -1,0 +1,17 @@
+#root {
+    .card-body {
+        padding-bottom: 0.5rem;
+    }
+
+    .ant-form-item {
+        margin-bottom: 6px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .ant-form-item-label > label {
+        color: #eee;
+    }
+}
