@@ -17,7 +17,7 @@ import {
     saveItem,
 } from 'redux/slices/myDialog';
 
-export const MyForm = ({ <% if (settings.isDialog) { %>onAccept, onCancel<% } %> }) => {
+export const MyForm = ({ <% if (settings.isDialog) { %>isVisible, onAccept, onCancel<% } %> }) => {
     const [isLoading, setIsLoading] = useState(true);
     const dispatch = useDispatch();
 
@@ -84,7 +84,11 @@ export const MyForm = ({ <% if (settings.isDialog) { %>onAccept, onCancel<% } %>
     )
 };
 
-MyForm.PropTypes = {
-
+MyForm.propTypes = {
+    <%_ if (settings.isDialog) { %>
+        isVisible: PropTypes.bool,
+        onAccept: PropTypes.func,
+        onCancel: PropTypes.func,
+    <% } _%>
 };
 `;
